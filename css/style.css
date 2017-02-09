@@ -437,7 +437,7 @@ span.border.one:after {
 	float:right;
   margin-right: 10em;
   text-align: center;
-	min-height:431px;
+	min-height:430px;
   padding-left: 60px;
 }
 .about-left-grid h5 {
@@ -452,7 +452,7 @@ span.border.one:after {
 .about-left-grid h2 span{
   font-family: "Times New Roman", Georgia, Serif;
   color: #00a78e;
-  font-size: 1.1em;
+  font-size: 1em;
   font-weight: bold;
 }
 .about-left-grid p{
