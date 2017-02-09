@@ -351,10 +351,22 @@ ul.news {
 .blog {
   padding:5em 0;
 }
-.about-inner p {
+.about-inner h3 {
+  color: #00a78e;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 200%;
+}
+.about-inner p{
   color: #777;
-  line-height: 1.8em;
-  font-size:0.9em;
+  line-height: 1.5em;
+  font-size:1.2em;
+  font-family: "Times New Roman", Times, serif;
+}
+.about-inner table td{
+  color: #777;
+  line-height: 1.5em;
+  font-size:1em;
+  font-family: "Times New Roman", Times, serif;
 }
 h4.tittle  {
   color: #00a78e;
