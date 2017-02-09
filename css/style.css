@@ -435,16 +435,24 @@ span.border.one:after {
 .about-left-grid{
 	width:70%;
 	float:right;
-    margin-right: 10em;
-	min-height:433px;
+  margin-right: 10em;
+  text-align: center;
+	min-height:442px;
+  padding-left: 60px;
+}
+.about-left-grid h5 {
+  font-family: "Times New Roman", Georgia, Serif;
+  font-size: 120%;
+  text-align: center;
 }
 .about-left-grid h2{
 	color:#191919;
 	font-size:2em;
 }
 .about-left-grid h2 span{
-  font-family: 'Waiting for the Sunrise', cursive;
-  font-size: 1em;
+  font-family: "Times New Roman", Georgia, Serif;
+  color: #00a78e;
+  font-size: 1.1em;
   font-weight: bold;
 }
 .about-left-grid p{
@@ -464,21 +472,21 @@ span.border.one:after {
 	margin-right: 0.2em;
 }
 .about-left {
-      padding: 4.5em 0 4.7em 0;
-    float: right;
-    background: #f4f4f4;
+  padding: 4.5em 0 4.7em 0;
+  float: right;
+  background: #f4f4f4;
 }
 .about-left-grid ul li a {
-       padding: 0.6em 2em;
-    font-size: 1.2em;
-    color: #00a78e;
-    border: 2px solid #00a78e;
-    text-decoration: none;
-    border-radius: 1.5em;
-    -webkit-border-radius: 1.5em;
-    -moz-border-radius: 1.5em;
-    -o-border-radius: 1.5em;
-    -ms-border-radius: 1.5em;
+  padding: 0.6em 2em;
+  font-size: 1.2em;
+  color: #00a78e;
+  border: 2px solid #00a78e;
+  text-decoration: none;
+  border-radius: 1.5em;
+  -webkit-border-radius: 1.5em;
+  -moz-border-radius: 1.5em;
+  -o-border-radius: 1.5em;
+  -ms-border-radius: 1.5em;
 }
 .about-left-grid ul li a:hover{
 	background:#00a78e;
@@ -969,8 +977,16 @@ h2.resp-accordion {
 	padding: 5px;
 	display: none;
 }
+.progress {
+  box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
 .resp-tab-content {
+  width: 50%;
+  margin-left: 25%;
 	display: none;
+}
+.resp-tab-content ul li h4{
+  font-family: "Times New Roman", Times, serif;
 }
 .resp-content-active, .resp-accordion-active {
    display: block;
@@ -1101,17 +1117,16 @@ div#portfolioModal1,div#portfolioModal2,div#portfolioModal3,div#portfolioModal4,
     transform: rotate(90deg);
 }
 .team-gd {
-    padding: 0;
+  padding: 0;
 	position:relative;
 }
 .bottom-top {
-    margin: 0 auto;
-    text-align: center;
+  margin: 0 auto;
+  text-align: center;
 }
-
 #port {
-    padding:5em 0 0 0;
-	    background: #f4f4f4;
+  padding:5em 0 0 0;
+  background: #f4f4f4;
 }
 /*-- //portfolio --*/
 /*-- contact --*/
@@ -1321,7 +1336,7 @@ span.border.two:after {
        font-size: 1.8em;
 	}
 	.about-left {
-        padding: 5.5em 0 3.5em 0;
+    padding: 5.5em 0 3.5em 0;
 	}
 	.about-left-grid p {
 		font-size:0.9em;
