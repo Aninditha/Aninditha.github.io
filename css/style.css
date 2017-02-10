@@ -359,16 +359,16 @@ ul.news {
 .about-inner p{
   color: #777;
   line-height: 1.5em;
-  font-size:1.2em;
+  font-size:1em;
   font-family: "Times New Roman", Times, serif;
 }
 .about-inner table td{
   color: #777;
   line-height: 1.5em;
-  font-size:1em;
+  font-size:1.1em;
   font-family: "Times New Roman", Times, serif;
 }
-h4.tittle  {
+h4.tittle {
   color: #00a78e;
   text-decoration: none;
   font-size: 1.4em;
@@ -988,6 +988,32 @@ h2.resp-accordion {
 	cursor: pointer;
 	padding: 5px;
 	display: none;
+}
+.w3-progress-container {
+  width:100%;
+  height:1.5em;
+  position:relative;
+  background-color:#f1f1f1
+}
+.w3-progressbar {
+  background-color:#757575;
+  height:100%;
+  position:absolute;
+  line-height:inherit
+}
+.w3-round-xlarge {
+  border-radius:16px!important
+}
+.w3-round-xlarge {
+  border-radius:16px!important
+}
+.w3-grey,.w3-hover-grey:hover {
+  color:#000!important;
+  background-color:#9e9e9e!important
+}
+.w3-teal,.w3-hover-teal:hover {
+  color:#fff!important;
+  background-color:#009688!important
 }
 .progress {
   box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
