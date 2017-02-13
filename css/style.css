@@ -399,7 +399,7 @@ h4.tittle {
   text-align: center;
   font-family: "Times New Roman", Times, serif;
 }
-.modal-body td, table {
+.modal-body td, table, th{
   color: #fff;
   font-family: georgia,garamond,serif;
   vertical-align: top;
