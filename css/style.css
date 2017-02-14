@@ -1046,7 +1046,7 @@ button.close{
 	border:none;
 	outline:none;
 }
-div#portfolioModal1,div#portfolioModal2,div#portfolioModal3,div#portfolioModal4,div#portfolioModal5,div#portfolioModal6,div#portfolioModal7,div#portfolioModal8,div#portfolioModal9,div#portfolioModal10 {
+div#portfolioModal1,div#portfolioModal2,div#portfolioModal3,div#portfolioModal4,div#portfolioModal5,div#portfolioModal6,div#portfolioModal7,div#portfolioModal8,div#portfolioModal9,div#portfolioModal10,div#portfolioModal11 {
   background: rgba(0, 0, 0, 0.7);
 }
 .team-gd img {
@@ -1812,7 +1812,7 @@ span.border.two:after {
 		margin: 2em auto 0;
 	}
 	.header-right {
-	    padding-left:0em;
+	  padding-left:0em;
 		float: left;
 		width: 100%;
 		padding: 1em 1em 0em 1em;
@@ -1881,14 +1881,14 @@ span.border.two:after {
 		padding: 0;
 		float: none;
 		text-align: center;
-		    width: 100%;
+		width: 100%;
 	}
 	.wthree_about_right_grid_right {
 		padding-right: 0;
 		float: none;
 		width: 100%;
 		margin-bottom: 1em;
-		    padding: 0;
+		padding: 0;
 	}
    .about-right {
 		float: none;
@@ -1898,7 +1898,7 @@ span.border.two:after {
 		padding: 1em 0 1em 0;
 	}
 	span.border,	span.border.one {
-      width: 44%;
+    width: 44%;
 	}
 	span.border.two {
 		width: 42%;
@@ -1918,9 +1918,9 @@ span.border.two:after {
 		padding: 1.5em 0 0 0;
 	}
 	ul.news li {
-		display: inline-block;
+	  display: inline-block;
 		margin-right: 0em;
-	    margin-bottom:10px;
+	  margin-bottom:10px;
 	}
 	ul.news li:nth-child(4) {
 		margin-bottom:0;
@@ -1944,8 +1944,8 @@ span.border.two:after {
 		margin-bottom: 0.5em;
 	}
 	a.read {
-       padding: 0.5em 1.5em;
-       font-size: 0.9em;
+    padding: 0.5em 1.5em;
+    font-size: 0.9em;
 	}
 	.service-head h3 {
 		font-size: 1.4em;
@@ -1973,15 +1973,15 @@ span.border.two:after {
 		margin: 123px 0px 0;
 	}
 	.news-text h3 {
-      font-size: 1.1em;
+    font-size: 1.1em;
 	}
 	span.border, span.border.one {
 		width: 49%;
 	}
-	 span.border.two {
-		     width: 49%;
-	 }
-	 .about-left-grid {
+	span.border.two {
+		width: 49%;
+	}
+	.about-left-grid {
 		width: 97%;
 		float: none;
 		margin-right: 0;
