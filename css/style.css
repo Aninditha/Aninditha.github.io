@@ -1015,9 +1015,6 @@ h2.resp-accordion {
   color:#fff!important;
   background-color:#009688!important
 }
-.progress {
-  box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
-}
 .resp-tab-content {
   width: 50%;
   margin-left: 25%;
@@ -1169,21 +1166,24 @@ div#portfolioModal1,div#portfolioModal2,div#portfolioModal3,div#portfolioModal4,
 /*-- //portfolio --*/
 /*-- contact --*/
 .mail_us{
-	    margin-bottom: 50px;
-    margin-top: 50px;
+	margin-bottom: 50px;
+  margin-top: 50px;
 }
 .contact-grid1-left {
-    width: 100%;
+  width: 29%;
+}
+.contact-grid1-left:hover {
+  box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
 }
 .contact-grid1-left1 {
-    padding: 2em;
-    border-bottom: 1px ridge rgb(214, 212, 212);
-    background:#fff;
-    text-align: center;
+  padding: 2em;
+  border-bottom: 1px ridge rgb(214, 212, 212);
+  background:#fff;
+  text-align: center;
 }
 .contact-grid1-left1 span {
-    font-size: 1.5em;
-      color: #00a78e;
+  font-size: 1.5em;
+  color: #00a78e;
 }
 .contact-grid1-left1 ul{
 	padding:0;
@@ -1611,7 +1611,7 @@ span.border.two:after {
 		padding: 11px 40px;
 	}
 	.contact-grid1-left1 {
-      padding: 1em;
+    padding: 1em;
 	}
 	.mail_left {
 		padding: 0;
