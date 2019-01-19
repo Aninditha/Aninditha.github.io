@@ -820,16 +820,7 @@ ul.year li:nth-child(7){
   background: #fff;
 }
 ul.year li:nth-child(8){
-  background: #fff;
-}
-ul.year li:nth-child(9){
-	background: #fff;
-}
-ul.year li:nth-child(10){
-	margin-top: 290px;
-}
-ul.year li:nth-child(11){
-  margin-top: 43px;
+  margin-top: 215px;
 }
 .timeline-badge.success i {
     font-size: 0.9em;
